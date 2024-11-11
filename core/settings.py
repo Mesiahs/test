@@ -40,7 +40,7 @@ THIRD_PARTY_APPS = [
     'corshearders',
     'rest_framework',
     'ckeditor',
-    'ckedit_uploader'
+    'ckeditor_uploader'
 ]
 
 INSTALLED_APPS = DJANGO_APPS + PROJECT_APPS + THIRD_PARTY_APPS
@@ -156,6 +156,17 @@ REST_FRAMEWORK = {
 }
 
 CORS_ORIGIN_WHITELIST = env.list('CORS_ORIGIN_WHITELIST_DEV')
+CSRF_TRUSTED_ORIGINS = env.list('CSRF_TRUSTED_ORIGINS_DEV')
+
+EMAIL_BACKEND='django.core.mail.backends.console.EmailBackend'
 
 if not DEBUG:
     ALLOWED_HOSTS= env.list('ALLOWED_HOSTS_DEPLOY')
+    CORS_ORIGIN_WHITELIST = env.list('CORS_ORIGIN_WHITELIST_DEPLOY')
+    CSRF_TRUSTED_ORIGINS = env.list('CSRF_TRUSTED_ORIGINS_DEPLOY')
+
+
+    DATABASES = {
+        "default": env.db("DATABASES_URL"),
+    }
+    DATABASES["default"]["ATOMIC_REQUESTS"] = True
