@@ -37,7 +37,7 @@ PROJECT_APPS = [
 ]
 
 THIRD_PARTY_APPS = [
-    'corshearders',
+    'corsheaders',
     'rest_framework',
     'ckeditor',
     'ckeditor_uploader'
@@ -51,9 +51,9 @@ CKEDITOR_CONFIGS = {
         'toolbar': 'Custom',
         'toolbar_Custom': [
             ['Bold', 'Italic', 'Underline'],
-            ['NumberedList','BulletedList', '-', 'Outdent', 'Indent', '-', 'JustifyLeft', 'JustifyCenter']
+            ['NumberedList','BulletedList', '-', 'Outdent', 'Indent', '-', 'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock'],
             ['Link', 'Unlink'],
-            ['RemoveFormat', 'source'],
+            ['RemoveFormat', 'Source'],
         ],
         'autoParagraph': False
     }    
