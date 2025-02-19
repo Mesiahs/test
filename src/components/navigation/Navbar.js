@@ -16,9 +16,11 @@ function Navbar(){
                 className=""/>
                 </div>
                 <div className="ml-4 mt-2 flex-shrink-0">
-                <Link to='/casos' className="text-lg inline-flex  font-medium leading-6 text-gray-900 hover:underline hover:underline-offset-4 mx-4">Casos</Link>
-                <Link to='/Servicios' className="text-lg inline-flex  font-medium leading-6 text-gray-900 hover:underline hover:underline-offset-4 mx-4">Servicios</Link>
-                <Link to='/Nosotros' className="text-lg inline-flex  font-medium leading-6 text-gray-900 hover:underline hover:underline-offset-4 mx-4">Nosotros</Link>    
+                <Link to='/Casos' className="text-lg inline-flex  font-medium leading-6 text-gray-900 border-b-2 border-white hover:border-orange-500 mx-4">Casos</Link>
+                <Link to='/Servicios' className="text-lg inline-flex  font-medium leading-6 text-gray-900 border-b-2 border-white hover:border-orange-500 mx-4">Servicios</Link>
+                <Link to='/Nosotros' className="text-lg inline-flex  font-medium leading-6 text-gray-900 border-b-2 border-white hover:border-orange-500 mx-4">Nosotros</Link>
+                <Link to='/About' className="text-lg inline-flex  font-medium leading-6 text-gray-900 border-b-2 border-white hover:border-orange-500 mx-4">About</Link> 
+                <Link to='/Blog' className="text-lg inline-flex  font-medium leading-6 text-gray-900 border-b-2 border-white hover:border-orange-500 mx-4">Blog</Link>   
                 <button
                     type="button"
                     className="ml-12 relative inline-flex items-center rounded-md border border-transparent bg-orange-button px-6 py-2 text-lg font-bold text-white shadow-sm transition duration-300 ease-in-out hover:bg-black focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2"
