@@ -9,16 +9,16 @@ const navigation = {
       { name: 'Insights', href: '#' },
     ],
     support: [
-      { name: 'Pricing', href: '#' },
+      { name: 'Pricing', href: '/contacto' },
       { name: 'Documentation', href: '#' },
       { name: 'Guides', href: '#' },
       { name: 'API Status', href: '#' },
     ],
     company: [
-      { name: 'About', href: '#' },
-      { name: 'Blog', href: '#' },
-      { name: 'Jobs', href: '#' },
-      { name: 'Press', href: '#' },
+      { name: 'About', href: '/casos' },
+      { name: 'Blog', href: '/servicios' },
+      { name: 'Jobs', href: '/nosotros' },
+      { name: 'Press', href: '/blog' },
       { name: 'Partners', href: '#' },
     ],
     legal: [

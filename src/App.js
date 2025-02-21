@@ -3,10 +3,11 @@ import Home from 'containers/pages/Home';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import store from './store';
 import { Provider } from 'react-redux';
-import Cases from 'containers/pages/Cases';
 import Services from 'containers/pages/Services';
 import About from 'containers/pages/About';
 import Blog from 'containers/pages/Blog';
+import Nosotros from 'containers/pages/Nosotros';
+import Cases from 'containers/pages/Nosotros copy';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           {/* Home Display*/}
           <Route path="/" element={<Home />} />
           <Route path="/Casos" element={<Cases />} />
+          <Route path="/Nosotros" element={<Nosotros />} />
           <Route path="/Servicios" element={<Services />} />
           <Route path="/About" element={<About />} />
           <Route path="/Blog" element={<Blog />} />
