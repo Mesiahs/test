@@ -2,8 +2,14 @@ import { connect } from "react-redux"
 import { NavLink, Link } from "react-router-dom"
 import logo_Edufux from 'assets/img/Edufux.jpg'
 import loading_dots from 'assets/img/loading-dots.gif'
+import { useState } from 'react'
+import { DotLoader } from 'react-spinners/DotLoader'
 
 function Navbar(){
+
+    const [loading,setloading]=useState(true)
+
+
     return (
         <nav className='w-full py-6 top-0 fixed'>
             <div className="bg-white px-4 sm:px-6">
