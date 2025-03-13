@@ -8,7 +8,7 @@ function Home(){
         <Layout>
             <Navbar/>
             <div className="pt-28">
-                
+                <Header/>
             </div>    
                 <Footer/>                
         </Layout>
