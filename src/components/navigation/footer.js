@@ -1,5 +1,5 @@
 import { connect } from "react-redux"
-import logo_lukxtec from 'assets/img/lukxtec.jpg'
+import logo_Edufux from 'assets/img/Edufux.jpg'
 
 const navigation = {
     solutions: [
@@ -101,7 +101,7 @@ function Footer(){
           <div className="xl:grid xl:grid-cols-3 xl:gap-8">
             <div className="space-y-8 xl:col-span-1">
               <img 
-                  src={logo_lukxtec}
+                  src={logo_Edufux}
                   width={80}
                   height={70}
                   className=""/>

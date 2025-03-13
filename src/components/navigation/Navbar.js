@@ -1,6 +1,6 @@
 import { connect } from "react-redux"
 import { NavLink, Link } from "react-router-dom"
-import logo_lukxtec from 'assets/img/lukxtec.jpg'
+import logo_Edufux from 'assets/img/Edufux.jpg'
 import loading_dots from 'assets/img/loading-dots.gif'
 
 function Navbar(){
@@ -10,9 +10,9 @@ function Navbar(){
             <div className="-ml-4 -mt-2 flex flex-wrap items-center justify-between sm:flex-nowrap md:px-14 px-2">
                 <Link to='/'className="ml-4 mt-2">
                 <img 
-                src={logo_lukxtec}
-                width={80}
-                height={70}
+                src={logo_Edufux}
+                width={200}
+                height={100}
                 className=""/>
                 </Link>
                 <div className="ml-4 mt-2 flex-shrink-0">
