@@ -8,39 +8,15 @@ function Header(){
         <div className="relative px-6 lg:px-8">
           <div className="mx-auto max-w-full xl:mx-12 xl:pt-40 xl:pb-64 lg:pt-40 lg:pb-48 pt-24 pb-12">
             <div>
-              
               <div>
                 <h1 className="text-4xl font-bold tracking-tight pb-16  sm:text-7xl">
-                  Data to <span> </span>
-                    <div className='inlie-flex' style={{color: 'blue', fontWeight: 'bold'}}>
-
-                      <Typewriter
-                        words={['Action', 'Insight', 'Innovation']}
-                        loop={0}
-                        cursor
-                        cursorStyle='_'
-                        typeSpeed={70}
-                        deleteSpeed={50}
-                        delaySpeed={1000}
-
-                      />
-                  </div>  
+                  Casos de estudio  
                 </h1>
-               <ul className='flex gap-8'>
-                  <li className="inline-flex transition duration-300 ease-in-out border-b-2 border-trabsparent hover:border-orange-button">
-                    {/*<link to='/Servicios/Algoaqui'> className="mt-6 text-2xl leading-8 text-gray-600 sm:text-center"*/}
-                      Item1
-                    {/*</link>*/}
-                    
-
-                  </li>
-                  <li className="inline-flex transition duration-300 ease-in-out border-b-2 border-trabsparent hover:border-orange-button">
-                    {/*<link to='/Servicios/Algoaqui'> className="mt-6 text-2xl leading-8 text-gray-700 sm:text-center"*/}
-                      Item2
-                    {/*</link>*/}
-
-                  </li>
-               </ul>
+                <p className="mt-6 text-2xl leading-8 text-black ">
+                  Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt
+                  amet fugiat veniam occaecat fugiat aliqua.
+                </p>
+               
                
               </div>
               <div className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]">
